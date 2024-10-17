@@ -10,7 +10,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #f0f2f6; /* 원하는 배경 색깔 코드로 변경 */
+        background-color: #F2F2F2; /* 원하는 배경 색깔 코드로 변경 */
     }
     </style>
     """,
