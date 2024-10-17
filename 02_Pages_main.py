@@ -1,7 +1,16 @@
 import streamlit as st
 from st_pages import add_page_title, get_nav_from_toml
 import streamlit.components.v1 as components
-
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f2f6; /* 원하는 배경 색깔 코드로 변경 */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # 페이지 설정 (최초 실행 시)
 st.set_page_config(layout="wide")
 st.sidebar.markdown("# 🗝️Unlock the Future 🔓")
