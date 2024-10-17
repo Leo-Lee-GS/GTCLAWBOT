@@ -11,6 +11,7 @@ st.sidebar.markdown("🤖 Our Service: **I am your Lawbot**")
 st.sidebar.markdown("💻 made by **S&Tech(세라/상원/석호)**")
 st.sidebar.markdown("🎯 Goal: Global Business 역량 강화")
 st.sidebar.markdown("💡 How: 계약 관련 업무 및 학습 지원")
+
 st.sidebar.markdown("")  
 st.sidebar.markdown("---")  
 st.sidebar.markdown("📌 **Shell, Chevron, BP 등의 General Terms and Conditions**(이하 GT&C)는 석유 거래의 기본 조건을 규정하며, 주로 인도, 결제, 위험 이전 등을 다룹니다.")
