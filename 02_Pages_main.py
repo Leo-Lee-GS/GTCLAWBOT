@@ -5,20 +5,6 @@ import streamlit.components.v1 as components
 # 페이지 설정 (최초 실행 시)
 st.set_page_config(layout="wide")
 
-# 배경색 변경을 위한 CSS 코드
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: #F2F2F2; /* 원하는 배경 색깔 코드로 변경 */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-
-
 st.sidebar.markdown("# 🗝️Unlock the Future 🔓")
 st.sidebar.markdown("### 🏆 Smart Thinking to Great Success!")
 st.sidebar.markdown("")  
@@ -26,7 +12,6 @@ st.sidebar.markdown("🤖 Our Service: **I am your Lawbot**")
 st.sidebar.markdown("💻 made by **S&Tech(세라/상원/석호)**")
 st.sidebar.markdown("🎯 Goal: Global Business 역량 강화")
 st.sidebar.markdown("💡 How: 계약 관련 업무 및 학습 지원")
-
 st.sidebar.markdown("")  
 st.sidebar.markdown("---")  
 st.sidebar.markdown("📌 **Shell, Chevron, BP 등의 General Terms and Conditions**(이하 GT&C)는 석유 거래의 기본 조건을 규정하며, 주로 인도, 결제, 위험 이전 등을 다룹니다.")
