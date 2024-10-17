@@ -1,6 +1,11 @@
 import streamlit as st
 from st_pages import add_page_title, get_nav_from_toml
 import streamlit.components.v1 as components
+
+# 페이지 설정 (최초 실행 시)
+st.set_page_config(layout="wide")
+
+# 배경색 변경을 위한 CSS 코드
 st.markdown(
     """
     <style>
@@ -11,8 +16,9 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-# 페이지 설정 (최초 실행 시)
-st.set_page_config(layout="wide")
+
+
+
 st.sidebar.markdown("# 🗝️Unlock the Future 🔓")
 st.sidebar.markdown("### 🏆 Smart Thinking to Great Success!")
 st.sidebar.markdown("")  
