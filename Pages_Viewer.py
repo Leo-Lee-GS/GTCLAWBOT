@@ -17,8 +17,8 @@ def pdf_page_to_image(pdf_path, page_number, zoom=1.5):  # zoom 값 수정
 # PDF 파일 경로 리스트
 pdf_files = {
     "BPOI 2015": "Data/BPOI 2015.pdf",
-    "Chevron 2014 Products GTC": "Data/Chevron2014ProductsGTC.pdf",
-    "STASCO 2010 Revised": "Data/STASCO 2010_revised.pdf"
+    "Chevron 2014 Products GTC": "Data/Chevron 2014.pdf",
+    "STASCO 2010 Revised": "Data/STASCO 2010.pdf"
 }
 
 # PDF 파일 선택 박스를 본문 상단에 배치
