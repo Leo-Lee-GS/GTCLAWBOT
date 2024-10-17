@@ -4,8 +4,7 @@ import streamlit.components.v1 as components
 
 # 페이지 설정 (최초 실행 시)
 st.set_page_config(layout="wide")
-st.sidebar.markdown("🗝️")
-st.sidebar.markdown("### Unlock the Future 🔓")
+st.sidebar.markdown("### 🗝️Unlock the Future 🔓")
 st.sidebar.markdown("🤖 **I am your Lawbot**")
 st.sidebar.markdown("💻 made by **S&Tech(세라/상원/석호)**")
 st.sidebar.markdown("💡 GT&C 관련 업무 및 교육 지원")
