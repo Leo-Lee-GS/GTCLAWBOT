@@ -12,7 +12,7 @@ st.sidebar.markdown("🎯 Goal: **Smart Thiking, Great Success**")
 st.sidebar.markdown("💡 HOW: **GT&C관련 업무 및 교육 지원**")
 st.sidebar.markdown("")  
 st.sidebar.markdown("---")  
-st.sidebar.markdown("📌 Shell, Chevron, BP 등의 **General Terms and Conditions(GTCs) **는 석유 거래의 기본 조건을 규정하며, 주로 인도, 결제, 위험 이전 등을 다룹니다. GTC는 개별 계약서에 우선 적용되지 않으며, 개별 계약서에서 별도로 합의된 사항이 있을 경우 그 조건이 우선합니다. GTC는 기본 틀을 제공하고, 구체적인 내용은 개별 계약서에서 조정됩니다.")
+st.sidebar.markdown("📌 Shell, Chevron, BP 등의 **General Terms and Conditions(GT&C) **는 석유 거래의 기본 조건을 규정하며, 주로 인도, 결제, 위험 이전 등을 다룹니다. GT&C는 개별 계약서에 우선 적용되지 않으며, 개별 계약서에서 별도로 합의된 사항이 있을 경우 그 조건이 우선합니다. GT&C는 기본 틀을 제공하고, 구체적인 내용은 개별 계약서에서 조정됩니다.")
 # st.set_page_config(layout="centered")
 # 암호 기능을 위한 세션 상태
 if 'access_granted' not in st.session_state:
