@@ -1,0 +1,55 @@
+[[pages]]
+path = "Pages_CHAT1.py"
+name = "GT&C 학습봇"
+icon = "🤖"
+
+[[pages]]
+path = "Pages_CHAT2.py"
+name = "GT&C Q&A봇"
+icon = "🤖"
+
+[[pages]]
+path = "Pages_CHAT3.py"
+name = "계약 문구 작성봇"
+icon = "🤖"
+
+[[pages]]
+path = "Pages_CHAT3_2.py"
+name = "계약 문구 분석봇"
+icon = "🤖"
+
+
+[[pages]]
+path = "Pages_CHAT4.py"
+name = "Letter 작성봇"
+icon = "🤖"
+
+[[pages]]
+path = "Pages_Compare.py"
+name = "GT&C 회사 별 비교"
+icon = "🎓"
+
+[[pages]]
+path = "Pages_Curriculum.py"
+name = "GT&C 커리큘럼"
+icon = "🎓"
+
+[[pages]]
+path = "Pages_FAQ.py"
+name = "FAQ"
+icon = "❓"
+
+[[pages]]
+path = "Pages_FAQ2.py"
+name = "Advanced FAQ"
+icon = "🧠"
+
+[[pages]]
+path = "Pages_Study.py"
+name = "Case Study"
+icon = "💡"
+
+[[pages]]
+path = "Pages_Viewer.py"
+name = "GT&C PDF보기"
+icon = "📑"
