@@ -7,6 +7,7 @@ st.set_page_config(layout="wide")
 
 st.sidebar.markdown("# 🗝️Unlock the Future 🔓")
 st.sidebar.markdown("### 🏆 Smart Thinking to Great Success!")
+st.sidebar.markdown("")
 st.sidebar.markdown("")  
 st.sidebar.markdown("🤖 Our Service: **I am your Lawbot**")
 st.sidebar.markdown("💻 made by **S&Tech(세라/상원/석호)**")
