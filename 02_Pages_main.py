@@ -38,7 +38,7 @@ if not st.session_state['access_granted']:
             st.set_query_params(access_granted='True')
 else:
     # 네비게이션 설정
-    nav = get_nav_from_toml(r"D:\GS_OneDrive\OneDrive - GS칼텍스\CDS_파이썬코드\langchain-kr\99-Projects\03. AI-DEAS\pages.toml")
+    nav = get_nav_from_toml("pages.toml")
     pg = st.navigation(nav)
     add_page_title(pg)
 
