@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 챗봇을 화면 중앙에 배치
-st.header("저는 다양한 :blue[Business Case]관련 :red[영문 Letter 작성봇]입니다. 입력하신 내용을 전문적인 영문 레터로 작성해드릴게요! :sunglasses:", divider="blue")
+st.subheader("저는 다양한 :blue[Business Case]관련 :red[영문 Letter 작성봇]입니다. 입력하신 내용을 전문적인 영문 레터로 작성해드릴게요! :sunglasses:", divider="blue")
 
 st.components.v1.html(
     """
