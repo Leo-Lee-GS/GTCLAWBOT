@@ -21,6 +21,9 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("✅ **알림**")
 st.sidebar.markdown("업무 상 중요한 정보나 개인정보와 같은 민감한 내용은 입력하지 않도록 주의하여야 합니다.")
 st.sidebar.markdown("회사의 AI 사용자 보안 수칙을 철저히 준수 바랍니다.")
+st.sidebar.markdown("`Lawbot AI는 실수를 할 수 있습니다. 중요한 정보를 확인하세요`")
+
+
 # st.set_page_config(layout="centered")
 # 암호 기능을 위한 세션 상태
 if 'access_granted' not in st.session_state:
