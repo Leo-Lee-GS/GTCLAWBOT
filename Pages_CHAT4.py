@@ -7,7 +7,7 @@ st.components.v1.html(
     """
     <iframe
     src="https://udify.app/chatbot/jhdj4FkD4xXc6qb9"
-    style="width: 100%; height: 80vh; min-height: 700px"
+    style="width: 100%; height: 70vh; min-height: 700px"
     frameborder="0"
     allow="microphone">
     </iframe>
