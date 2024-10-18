@@ -738,7 +738,7 @@ with tab7:
         return img
 
     # 기본 PDF 파일 경로
-    default_pdf_path = r"D:\GS_OneDrive\OneDrive - GS칼텍스\CDS_파이썬코드\langchain-kr\99-Projects\03. AI-DEAS\Data\Chevron2014ProductsGTC.pdf"
+    default_pdf_path = "Chevron 2014.pdf"
 
     # PDF 파일을 열고 총 페이지 수 가져오기
     doc = fitz.open(default_pdf_path)
