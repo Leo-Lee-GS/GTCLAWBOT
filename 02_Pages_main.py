@@ -15,7 +15,7 @@ st.sidebar.markdown("🎯 Goal: Global Business 역량 강화")
 st.sidebar.markdown("💡 How: 계약 관련 업무 및 학습 지원")
 st.sidebar.markdown("")  
 st.sidebar.markdown("---")  
-st.sidebar.markdown("📌 **Shell, Chevron, BP 등의 General Terms and Conditions**(이하 GT&C)는 석유 거래의 기본 조건을 규정하며, 주로 인도, 결제, 위험 이전 등을 다룹니다.")
+st.sidebar.markdown("📌 **Shell, Chevron, BP**의 **General Terms and Conditions**(이하 GT&C)는 `석유 제품 거래`의 기본 조건을 규정하며, 주로 인도, 결제, 위험 이전 등을 다룹니다.")
 st.sidebar.markdown("개별 계약서에서 별도로 합의된 사항이 있을 경우 그 조건이 GT&C보다 우선합니다. GT&C는 기본 틀을 제공하고, 구체적인 내용은 개별 계약서에서 조정됩니다.")
 # st.set_page_config(layout="centered")
 # 암호 기능을 위한 세션 상태
@@ -39,7 +39,7 @@ def check_answer():
 
 # 암호 입력 전에는 페이지 접근 불가
 if not st.session_state['access_granted']:
-    st.text_input("S&T는 몇 층입니까? 숫자만 입력하세요!", key="answer")
+    st.text_input("S&T본부는 몇 층입니까? 숫자만 입력하세요!", key="answer")
     if st.button("제출", on_click=check_answer):
         # 올바른 답을 입력한 경우, URL에 세션 상태를 저장
         if st.session_state['access_granted']:
